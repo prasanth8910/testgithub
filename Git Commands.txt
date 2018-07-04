@@ -1,0 +1,60 @@
+					Git Commands
+					*************
+
+	1> git init - initialize the local git repository by creating .git folder 1stly
+	
+	2> git add  - add multiple files for stage area
+
+	3> git status - to view the staging area files
+
+	4> git commit -m '__msg' - to commit the changes to save into local repository
+
+	5> git push   - push to local repo to remote repo some time use [git push origin 	master --force]
+
+	6> git pull   - pull from the latest changed one from remote repository
+
+	7> git clone  -  copy a remote repo into a new directory
+
+	8> git .gitignore - to create the file which having the list of the ignored files and folders/directories
+
+
+	Git Web - To upload the repository
+	************************************
+
+	9> create repository with any name
+
+	10> git remote add origin - and get the clone link from git web and paste to git bash
+
+	11> git push -u origin master [--force]
+
+	12> git add . - for adding the new branch files
+	
+	13> git commit . - for adding the new branch files
+
+	14> git checkout master - change into master repository
+
+	Optional => git merge [login] - for merging the login branch into master
+	
+
+	
+
+
+	Branching - Only for working as TEAM
+	************************************
+
+	1> git branch   - git branch [branch_name] - login
+
+	2> git checkout login -  to change into login area
+
+	3> Create file using manual or using touch index.html command
+
+	4> git add . - for adding the new branch files
+	
+	5> git commit . - for adding the new branch files
+
+	6> git checkout master - change into master repository
+
+	7> git merge [login] - for merging the login branch into master
+	
+
+		
